@@ -19,21 +19,21 @@ const REEL = [
   {
     world: "Beauty",
     label: "Lip gloss swipe",
-    src: "/Landscape Beauty.mp4",
+    src: "/Landscape Beauty (compressed).mp4",
     poster: "",
     bg: ["#D8321F", "#5A0F18"],
   },
   {
     world: "Hair",
     label: "Linen swirl",
-    src: "/Landscape Hairstyle.mp4",
+    src: "/Landscape Hairstyle (compressed).mp4",
     poster: "",
     bg: ["#C9B8A3", "#2F3A4A"],
   },
   {
     world: "Lifestyle",
     label: "Rooftop breakfast",
-    src: "/Landscape Lifestyle .mp4",
+    src: "/Landscape Lifestyle (compressed).mp4",
     poster: "",
     bg: ["#F2C6A0", "#7C5A44"],
   },
@@ -459,9 +459,6 @@ function Tile({ item, soundOn, setCursor }) {
       )}
       <span className="tile-meta">
         <strong>{item.title}</strong>
-        <em>
-          {item.client}, {item.format}
-        </em>
       </span>
     </div>
   );
